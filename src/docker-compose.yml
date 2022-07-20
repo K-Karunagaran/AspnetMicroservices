@@ -8,5 +8,5 @@ services:
     build:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
-voulmes:
-  momgo_data
+volumes:
+  mongo_data:
